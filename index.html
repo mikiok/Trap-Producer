@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trap Producer</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+	
+	<h1>Trap Producer</h1>
+  <p>Pulsa o pincha las letras Z, X, C para escuchar la base de Trap y<br> A,S,D para ponerle letra.</p>
+
+	<div class="keys">
+		<div class="key" data-key="65">
+			<kbd>A</kbd>
+			<span class="sound">Base1</span>
+		</div>
+		<div class="key" data-key="83">
+			<kbd>S</kbd>
+			<span class="sound">Base2</span>
+		</div>
+		<div class="key" data-key="68">
+			<kbd>D</kbd>
+			<span class="sound">Base3</span>
+		</div>
+	</div>
+	<div class="keys">
+		<div class="key" data-key="90">
+			<kbd>Z</kbd>
+			<span class="sound">Song1</span>
+		</div>
+		<div class="key" data-key="88">
+			<kbd>X</kbd>
+			<span class="sound">Song2</span>
+		</div>
+		<div class="key" data-key="67">
+			<kbd>C</kbd>
+			<span class="sound">Song3</span>
+		</div>
+	</div>
+
+	<audio data-key="65" src="sounds/Base1.mp3" data-type="base"></audio>
+	<audio data-key="83" src="sounds/Base1.mp3" data-type="base"></audio>
+	<audio data-key="68" src="sounds/Base1.mp3" data-type="base"></audio>
+	<audio data-key="90" src="sounds/Acapella1.mp3" data-type="sound"></audio>
+	<audio data-key="88" src="sounds/Acapella1.mp3" data-type="sound"></audio>
+	<audio data-key="67" src="sounds/Acapella1.mp3" data-type="sound"></audio>
+
+	<script type="text/javascript" src="home.js"></script>
+	
+</body>
+</html>
