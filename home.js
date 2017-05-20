@@ -33,4 +33,3 @@ audios.forEach(audio => audio.addEventListener('ended', removeTransition));
 audios.forEach(audio => audio.addEventListener('pause', removeTransition));
 
 window.addEventListener('keydown', playSound);
-
